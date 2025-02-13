@@ -2,6 +2,7 @@ import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 import WaterChecker from '../../components/WaterChecker/WaterChecker'
 import { MenuIcon } from '../../components/MenuIcon/MenuIcon'
+import TodoList from '../../components/TodoList/TodoList'
 
 const MainPage = () => {
     return (
@@ -11,6 +12,7 @@ const MainPage = () => {
             </View>
             <Text style={styles.text}>Отслеживание выпитой воды</Text>
             <WaterChecker weight={113} size={185} />
+            <TodoList />
         </View>
     )
 }
