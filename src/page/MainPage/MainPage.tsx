@@ -19,13 +19,13 @@ const MainPage = () => {
 
 const styles = StyleSheet.create({
     container: {
-        marginTop: 60,
+        marginTop: 30,
         justifyContent: 'center',
         alignItems: 'center',
     },
     menuContainer: {
         position: 'relative',
-        top: -20,
+        top: 30,
         right: -178,
     },
     text: {
