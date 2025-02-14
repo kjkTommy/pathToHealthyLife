@@ -1,12 +1,7 @@
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
 import GlassWithPlus from '../Glass/Glass'
-
-interface ViewForGlassesProps {
-    waterForOrganism: number
-    incrementWater: () => void
-    decrementWater: () => void
-}
+import { ViewForGlassesProps } from '../../types'
 
 const ViewForGlasses = ({
     waterForOrganism,

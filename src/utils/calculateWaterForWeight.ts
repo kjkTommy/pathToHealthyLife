@@ -1,7 +1,4 @@
-interface ValueForCalculating {
-    weight: number
-    size: number
-}
+import { ValueForCalculating } from '../types'
 
 export const calculateWaterForWeight = ({ weight, size }: ValueForCalculating): number => {
     const volumeGlass = 0.25

@@ -2,11 +2,7 @@ import React, { useState, useCallback, memo } from 'react'
 import { View, StyleSheet, Text } from 'react-native'
 import { calculateWaterForWeight } from '../../utils/calculateWaterForWeight'
 import ViewForGlasses from '../ViewForGlasses/ViewForGlasses'
-
-interface WaterCheckerProps {
-    weight: number
-    size: number
-}
+import { WaterCheckerProps } from '../../types'
 
 const WaterChecker = memo(({ weight, size }: WaterCheckerProps) => {
     const waterForOrganism = calculateWaterForWeight({ weight, size })

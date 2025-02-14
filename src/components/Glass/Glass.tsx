@@ -2,11 +2,7 @@ import React, { useState } from 'react'
 import { View, TouchableOpacity } from 'react-native'
 import Animated, { useAnimatedProps, useSharedValue, withTiming } from 'react-native-reanimated'
 import Svg, { Polygon, Line } from 'react-native-svg'
-
-interface GlassWithPlusProps {
-    incrementWater: () => void
-    decrementWater: () => void
-}
+import { GlassWithPlusProps } from '../../types'
 
 const AnimatedPolygon = Animated.createAnimatedComponent(Polygon)
 
