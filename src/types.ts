@@ -1,6 +1,7 @@
 export interface ITask {
     title: string
     id: number
+    isCompleted: boolean
 }
 export interface GlassWithPlusProps {
     incrementWater: () => void
